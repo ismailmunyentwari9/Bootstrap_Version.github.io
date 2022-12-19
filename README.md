@@ -56,9 +56,9 @@ Setup<br>
 Clone this repository to your desired folder:<br>
 
 1. Clone this repository or download the Zip folder:"<br>
-$ git clone <(https://github.com/ismailmunyentwari9/Full_portfolio/branches)><br>
+$ git clone <(https://github.com/ismailmunyentwari9/Full_Desktop_Version.github.io.git)><br>
 2. Navigate to the location of the folder in your machine:<br>
-(https://github.com/ismailmunyentwari9/My-portfolio)<br>
+(https://github.com/ismailmunyentwari9/Full_Desktop_Version.github.io/pull/1)<br>
 **3. Press Enter to navigate to your local clone.**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
