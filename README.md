@@ -6,6 +6,7 @@
 - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+-[LIVE DEMO](#live-demo)
 💻 Getting Started<br>
 -Setup<br>
 -Prerequisites<br>
@@ -38,6 +39,10 @@ This portfolio project, was built with html5 and css3.
 Client<br>
 **.HTML**
 **.CSS**
+# 📖 [LIVE DEMO ] <a name="live-demo"></a>
+To get deployed version of my portfolio<br>
+visit <a href="https://ismailmunyentwari9.github.io/Full_Desktop_Version.github.io/">Portfolio</a>
+
 
 💻 Getting Started<br>
 To get a local copy up and running, follow these steps.<br>
