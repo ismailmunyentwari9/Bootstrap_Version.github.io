@@ -476,8 +476,8 @@
   }
 
   .formy-btn:hover {
-    background: skyblue;
-    color: white;
+    background: rgb(235, 212, 135);
+    color: black;
   }
 
   nav .ul002 li a {
@@ -536,6 +536,10 @@
   li {
     list-style-type: none;
     margin-left: 2%;
+  }
+
+  .ul002 li {
+    margin-left: 5%;
   }
 
   a {
@@ -1087,8 +1091,8 @@
   }
 
   .formy-btn:hover {
-    background: skyblue;
-    color: white;
+    background: rgb(180, 235, 135);
+    color: black;
     transform: rotateY(360deg);
     transition: 2s;
   }
