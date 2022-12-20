@@ -476,8 +476,8 @@
   }
 
   .formy-btn:hover {
-    background: skyblue;
-    color: white;
+    background: rgb(235, 212, 135);
+    color: black;
   }
 
   nav .ul002 li a {
