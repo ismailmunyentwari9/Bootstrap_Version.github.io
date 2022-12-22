@@ -41,7 +41,7 @@ Client<br>
 **.CSS**
 ## 🚀 LIVE DEMO  <a name="live-demo"></a>
 To get deployed version of my portfolio<br>
-visit <a href="https://ismailmunyentwari9.github.io/Full_Desktop_Version.github.io/">Portfolio</a>
+visit <a href="https://ismailmunyentwari9.github.io/Bootstrap_Version.github.io/">Portfolio</a>
 
 
 ## 💻 Getting Started<br>
