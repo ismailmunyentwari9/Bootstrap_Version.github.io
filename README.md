@@ -7,6 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 -[LIVE DEMO](#live-demo)<br>
+-[LOOM VIDEO](#loom-video)<br>
 💻 Getting Started<br>
 -Setup<br>
 -Prerequisites<br>
@@ -42,6 +43,10 @@ Client<br>
 ## 🚀 LIVE DEMO  <a name="live-demo"></a>
 To get deployed version of my portfolio<br>
 visit <a href="https://ismailmunyentwari9.github.io/Full_Desktop_Version.github.io/">Portfolio</a>
+
+## 🚨 LOOM VIDEO  <a name="loom-video"></a>
+If you want to watch full Presantation video of my project<br>
+visit <a href="https://www.loom.com/share/f7f760337b3c433aaf11c07db7d06a19">**LOOM**</a>
 
 
 ## 💻 Getting Started<br>
