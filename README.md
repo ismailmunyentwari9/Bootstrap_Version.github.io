@@ -34,14 +34,14 @@ simple portfolio project, built with html5 and css3 including linter configuratt
 [Add intro header section for mobile version]<br>
 [Add media queries(Responsiveness)]<br>
 **Tech Stack**<br>
-This portfolio project, was built with html5 and css3.
+This portfolio project, was built with html5 and css3
 
 Client<br>
 **.HTML**
 **.CSS**
 ## 🚀 LIVE DEMO  <a name="live-demo"></a>
 To get deployed version of my portfolio<br>
-visit <a href="https://ismailmunyentwari9.github.io/Full_Desktop_Version.github.io/">Portfolio</a>
+visit <a href="https://github.com/ismailmunyentwari9/Bootstrap_Version.github.io">Portfolio</a>
 
 
 ## 💻 Getting Started<br>
