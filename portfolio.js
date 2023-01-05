@@ -1,58 +1,24 @@
-/* listen for clicks on the hamburger button
-document.querySelector(".sp2").addEventListener("click", function() {
-  // show the mobile menu
-  document.querySelector(".ul002").style.cssText = `
-  display:flex;
-  filter: blur(0px);
-  margin-right:30%;
-  `;
-  document.querySelector(".sp2 img").style.display = "none";
-  document.querySelector(".times").style.display= "flex";
-  document.querySelector(".sp1").style.display = "none";
-  document.querySelector(".blue").style.cssText = `
-  position: fixed;
- 
-  width: 100vw;
-  height: 100vh;
- 
-  `;
-  document.querySelector(".mobile-overlay").style.cssText = `
-  background-color: #6070ff !important;
-  mix-blend-mode: multiply;
-  width: 100vw;
-  height: 100%;
-  position:fixed;
-  z-index: 4!;
-  opacity: 100%;
-  `;
-  document.querySelector(".sp1").style.display = "none";
-});
-
-
-// listen for clicks on the clos
-e button
-document.querySelector(".times").addEventListener("click", function() {
-    // hide the mobile menu
-    
-    document.querySelector(".ul002").style.display = "none";
-    document.querySelector(".sp2 img").style.display = "flex";
-    document.querySelector(".times").style.display = "none";
-    document.querySelector(".sp1").style.display = "initial";
-    document.querySelector(".mobile-overlay").style.backgroundColor= "transparent";
-    document.querySelector(".blue").style.display= "none";
-    
-  });
-  */
-const menus=document.querySelector('.ul002');
-
-
- function closeMenu() {
- menus.style.display="none";
+const menu=document.querySelector('.menu_mobile');
+const close=document.querySelector('.times');
+const menus=document.querySelectorAll('.menu_mobile >li');
+const body=document.querySelector('.blurx');
+const open=document.querySelector('.sp2');
+function closeMenu() {
+ menu.style.display="none";
+ body.classList.remove('blur');
+ open.style.display="flex";
  }
- function openMenu(){
-   menus.style.display='block';
- }
- menus.addEventListener('click', closeMenu);
+function openMenu(){
+  menu.style.display='block';
+  open.style.display="none";
+  body.classList.add('blur');
+}
+
+open.addEventListener('click',openMenu);
+close.addEventListener('click',closeMenu);
+menus.forEach((link)=>{
+  link.addEventListener('click', closeMenu);
+}) 
 
 
 
