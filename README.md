@@ -75,9 +75,9 @@ $ git clone <(https://github.com/ismailmunyentwari9/Full_Desktop_Version.github.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
--Create More pages  <br>
--Adding a screen reader  <br>
--adding direct emails to my email account  <br>
+-Create More pages.  <br>
+-Adding a screen reader.  <br>
+-adding direct emails to my email account.  <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
