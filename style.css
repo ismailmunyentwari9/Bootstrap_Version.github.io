@@ -509,8 +509,9 @@
     background: #6070ff;
     mix-blend-mode: multiply;
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
+    bottom: 0;
     right: 0%;
     width: 100%;
     color: white;
