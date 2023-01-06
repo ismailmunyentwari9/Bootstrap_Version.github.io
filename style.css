@@ -148,7 +148,6 @@ h3 {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-
   color: #172b4d;
   width: auto;
 }
@@ -202,8 +201,7 @@ h3 {
   line-height: 16px;
   color: #6070ff;
   display: flex;
-  justify-content:center;
-  display: flex;
+  justify-content: center;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -231,7 +229,8 @@ h3 {
 .button-mg {
   margin-top: 24px;
 }
-.blur{
+
+.blur {
   position: fixed;
   z-index: 0;
   width: 100vw;
@@ -273,7 +272,7 @@ h3 {
 h3 .fa-xmark {
   color: #67798e;
   cursor: pointer;
-  font-size:15px;
+  font-size: 15px;
   margin-left: 139px;
 }
 
@@ -635,8 +634,8 @@ form input::placeholder {
   }
 
   h3 .fa-xmark {
-    margin-left:70%;
-    font-size:15px;
+    margin-left: 70%;
+    font-size: 15px;
   }
 
   .popup img {
