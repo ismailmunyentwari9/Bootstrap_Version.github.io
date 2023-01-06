@@ -1,28 +1,27 @@
 // menubar open and close
-const menu=document.querySelector('.menu');
-const close=document.querySelector('.right');
-const menus=document.querySelectorAll('.menu > li');
-const body=document.querySelector('.blurx');
-const open=document.querySelector('.bar-button');
+const menu = document.querySelector('.menu');
+const close = document.querySelector('.right');
+const menus = document.querySelectorAll('.menu > li');
+const body = document.querySelector('.blurx');
+const open = document.querySelector('.bar-button');
 const closeMenu = () => {
-  menu.style.display="none";
+  menu.style.display = 'none';
   body.classList.remove('blur');
-  open.style.display="block";
-  }
-  const openMenu = () =>{
-  menu.style.display='block';
-  open.style.display="none";
+  open.style.display = 'block';
+};
+const openMenu = () => {
+  menu.style.display = 'block';
+  open.style.display = 'none';
   body.classList.add('blur');
-}
+};
 
-open.addEventListener('click',openMenu);
-close.addEventListener('click',closeMenu);
-menus.forEach((link)=>{
+open.addEventListener('click', openMenu);
+close.addEventListener('click', closeMenu);
+menus.forEach((link) => {
   link.addEventListener('click', closeMenu);
-}) 
+});
 
-//popup*****************popup**********popup.....//
-
+// popup*****************popup**********popup.....//
 
 const modalContainer = document.querySelector('#popupModal');
 
