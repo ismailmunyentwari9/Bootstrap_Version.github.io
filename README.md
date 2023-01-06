@@ -42,7 +42,7 @@ Client<br>
 **.CSS**
 ## 🚀 LIVE DEMO  <a name="live-demo"></a>
 To get deployed version of my portfolio<br>
-visit <a href="https://ismailmunyentwari9.github.io/Full_Desktop_Version.github.io/">Portfolio</a>
+visit <a href="https://github.com/ismailmunyentwari9/Bootstrap_Version.github.io">Portfolio</a>
 
 ## 🚨 LOOM VIDEO  <a name="loom-video"></a>
 If you want to watch full Presantation video of my project<br>
@@ -80,9 +80,9 @@ $ git clone <(https://github.com/ismailmunyentwari9/Full_Desktop_Version.github.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
--Create More pages  <br>
--Adding a screen reader  <br>
--adding direct emails to my email account  <br>
+-Create More pages.  <br>
+-Adding a screen reader.  <br>
+-adding direct emails to my email account.  <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
