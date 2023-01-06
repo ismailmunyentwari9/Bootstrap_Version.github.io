@@ -145,12 +145,12 @@
 }
 
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 12px;
+
   color: #172b4d;
-  width: 250px;
+  width: auto;
 }
 
 .proj {
@@ -202,6 +202,8 @@ h3 {
   line-height: 16px;
   color: #6070ff;
   display: flex;
+  justify-content:center;
+  display: flex;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -229,8 +231,7 @@ h3 {
 .button-mg {
   margin-top: 24px;
 }
-
-.blur {
+.blur{
   position: fixed;
   z-index: 0;
   width: 100vw;
@@ -269,12 +270,11 @@ h3 {
   border-radius: 16px;
 }
 
-.fa-xmark {
+h3 .fa-xmark {
   color: #67798e;
   cursor: pointer;
-  width: 25px;
-  height: 25px;
-  margin-left: 280px;
+  font-size:15px;
+  margin-left: 139px;
 }
 
 .popup img {
@@ -634,8 +634,9 @@ form input::placeholder {
     height: 1163px;
   }
 
-  .fa-xmark {
-    margin-left: 1100px;
+  h3 .fa-xmark {
+    margin-left:70%;
+    font-size:15px;
   }
 
   .popup img {
