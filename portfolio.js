@@ -190,3 +190,47 @@ window.addEventListener('load', () => {
     });
   });
 });
+
+// ---------------------form validation-------------------------
+
+const email = document.querySelector('#E_mail');
+const error = document.querySelector('#Feed_back');
+const form = document.querySelector('#Form');
+const emailValidation = (input) => {
+  if (input === input.toLowerCase()) {
+    return true;
+  }
+  return false;
+};
+form.addEventListener('submit', (event) => {
+  error.innerHTML = '';
+  if (emailValidation(email.value)) {
+    error.innerHTML = '';
+  } else {
+    event.preventDefault();
+    error.innerHTML = 'Dear User, Please Change Your E_mail to lower case! ☺☺';
+  }
+});
+
+// ------------------------local storage---------------
+
+const localData = document.querySelectorAll('.inputs');
+const localStoreData = {
+  name: '',
+  email: '',
+  message: '',
+};
+localData.forEach((input) => {
+  input.addEventListener('input', () => {
+    localStoreData[input.name] = input.value;
+    localStoreData[input.email] = input.value;
+    localStoreData[input.message] = input.value;
+    localStorage.setItem('information', JSON.stringify(localStoreData));
+  });
+});
+const informationStored = JSON.parse(localStorage.getItem('information'));
+if (informationStored) {
+  localData.forEach((element) => {
+    element.value = informationStored[element.name];
+  });
+}
