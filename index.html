@@ -166,25 +166,29 @@
           with it
         </p>
       </div>
-      <form action="https://formspree.io/f/xpznvdgk" method="post">
+      <form action="https://formspree.io/f/xpznvdgk" method="post" id="Form">
         <input
           type="text"
           name="full-name"
           id="name"
+          class="inputs"
           maxlength="30"
           placeholder="Name"
           required
         />
         <input
           type="email"
+          class="inputs"
           name="Email"
-          id="email"
+          id="E_mail"
           required
           placeholder="me@gmail.com"
         />
+        <span id="Feed_back"></span>
         <textarea
           name="message"
           id="textarea"
+          class="inputs"
           cols="30"
           rows="10"
           placeholder="Write your message here"
@@ -192,7 +196,7 @@
           required
         ></textarea>
         <div>
-          <span id="validationMsg"></span><br>
+          <span id="Feed_back"></span><br>
           <button class="button form-button" type="submit">Get It Touch</button>
         </div>
       </form>

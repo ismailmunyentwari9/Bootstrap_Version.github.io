@@ -626,6 +626,13 @@ form input::placeholder {
     justify-content: center;
   }
 
+  #Feed_back {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: red;
+  }
+
   /* ----------------------------popup------------- */
 
   .popup {
